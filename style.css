@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(0, 161, 35);  
+    background-color: rgb(13, 83, 129);  
     
-    color: #000000;
+    color: #fcfcfc;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -16,11 +16,10 @@ main {
     position: relative;
 }
 
-
 article {
     text-align: justify;
+    margin: 0 auto;
 }
-
 
 header {
     color: rgb(255, 255, 255);
@@ -29,7 +28,7 @@ header {
 
 
 footer {
-    text-align: center;
+    text-align: auto;
     padding-bottom: 10px;
 }
 
@@ -39,8 +38,35 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    height: 200px ;
 }
-
+img.zweefrechts {
+    float: right;
+    margin-left:15px;
+    height:240px;
+}
+img.zweefvoor {
+    float:right ;
+    margin-left:15px;
+    height:150;
+}
+img.zweefachter {
+    float: right;
+    margin-left:15px;
+    height:250px;
+    width: 300px;
+    margin-top:20px;
+}
+img.zweefboven {
+    float: right;
+    margin-left:15px;
+    height:185px;
+}
+img.zweefin {
+    float:left;
+    margin-right: 15px;
+    width: 235px;
+}
 .smalltext {
     font-size: 0.7em;
 }
