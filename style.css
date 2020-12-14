@@ -4,10 +4,17 @@
 
     100% {opacity:1;}
 }
-
+@keyframes slide {
+    0% {right: -200px;
+    }
+    100% {
+        right:0px;
+    }
+}
  .fadeIn { 
     animation:fadeIn 5s;
 }
+
 html, body {
     height: 100%;
     padding: 0;
@@ -47,11 +54,14 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
     width: 290px;
+    animation:fadeIn 5s;
 }
 img.zweefrechts {
     float: right;
     margin-left:15px;
-    height:140px;
+    height:230px;
+    position:relative;
+    animation: slide 2s;
 }
 
 img.zweefachter {
@@ -65,11 +75,14 @@ img.zweefboven {
     float: right;
     margin-left:15px;
     height:185px;
+    position: relative;
+    animation:slide 2s;
 }
 img.zweefin {
     float:left;
     margin-right: 15px;
     width: 350px;
+
 }
 
 
