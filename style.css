@@ -42,62 +42,12 @@ header {
 }
 
 
-footer {
-    text-align: auto;
-    padding-bottom: 10px;
-}
+
+
 
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-    width: 290px;
-    animation:fadeIn 5s;
-}
-img.zweefrechts {
-    float: right;
-    margin-left:15px;
-    height:230px;
-    position:relative;
-    animation: slide 2s;
-}
-
-img.zweefachter {
-    float: right;
-    margin-left:15px;
-    height:250px;
-    width: 330px;
-    margin-top:20px;
-}
-img.zweefboven {
-    float: right;
-    margin-left:15px;
-    height:185px;
-    position: relative;
-    animation:slide 2s;
-}
-img.zweefin {
-    float:left;
-    margin-right: 15px;
-    width: 350px;
-
-}
-
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 
 /* navigatiebalk */
@@ -137,4 +87,41 @@ font-family:arial;
 
 
 /* page 1 */
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+    width: 290px;
+    animation:fadeIn 5s;
+}
+img.zweefrechts {
+    float: right;
+    margin-left:15px;
+    height:230px;
+    position:relative;
+    animation: slide 2s;
+}
 
+/* page 2 */
+img.zweefboven {
+    float: right;
+    margin-left:15px;
+    height:185px;
+    position: relative;
+    animation:slide 2s;
+}
+/* page 3 */
+img.zweefin {
+    float:left;
+    margin-right: 15px;
+    width: 350px;
+    animation: fadeIn 1s;
+}
+/* page 4, 1 afbeelding heeft zelfde CCs als page 1*/
+img.zweefachter {
+    float: right;
+    margin-left:15px;
+    height:250px;
+    width: 330px;
+    margin-top:20px;
+}
+/* page 5 heeft zelfde CSS als page 1*/
